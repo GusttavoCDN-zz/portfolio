@@ -1,4 +1,5 @@
 import About from 'components/About';
+import Experience from 'components/Experience';
 import Header from 'components/Header';
 import Nav from 'components/Nav';
 import React from 'react';
@@ -9,6 +10,7 @@ export default function App() {
       <Header />
       <Nav />
       <About />
+      <Experience />
     </React.Fragment>
   );
 }

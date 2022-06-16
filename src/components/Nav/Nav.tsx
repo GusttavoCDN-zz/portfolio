@@ -12,7 +12,7 @@ function Nav() {
     <nav>
       {' '}
       <a
-        href="#home"
+        href="#header"
         className={active === '#' ? 'active' : ''}
         onClick={() => setActive('#')}
       >
