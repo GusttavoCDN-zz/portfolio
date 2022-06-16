@@ -31,7 +31,7 @@ function Contact() {
             <h4>Email</h4>
             <h5>gusttavo.x.santos@gmail.com</h5>
             <a href="mailto:gusttavo.x.santos@gmail.com" target="_blank" rel="noreferrer">
-              Me envie uma mensagem
+              Envie uma mensagem
             </a>
           </article>
           <article className="contact__option">
@@ -43,7 +43,7 @@ function Contact() {
               target="_blank"
               rel="noreferrer"
             >
-              Me envie uma mensagem
+              Envie uma mensagem
             </a>
           </article>
         </div>

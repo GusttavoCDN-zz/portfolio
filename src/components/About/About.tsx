@@ -10,8 +10,8 @@ import ME from '../../assets/me.png';
 function About() {
   return (
     <section id="about">
-      <h5>Get To Know</h5>
-      <h2>About me</h2>
+      <h5>Me conheça melhor</h5>
+      <h2>Sobre mim</h2>
 
       <div className="container about__container">
         <div className="about__me">
