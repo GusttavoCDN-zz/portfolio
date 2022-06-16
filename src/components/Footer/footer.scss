@@ -16,6 +16,10 @@ footer {
   justify-content: center;
   gap: 2rem;
   margin: 0 auto 3rem;
+
+  a {
+    text-transform: capitalize;
+  }
 }
 
 .footer__socials {

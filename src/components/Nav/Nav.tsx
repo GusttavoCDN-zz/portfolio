@@ -1,9 +1,8 @@
 import './nav.scss';
 
 import React from 'react';
-import { AiOutlineHome, AiOutlineMessage, AiOutlineUser } from 'react-icons/ai';
-import { BiBook } from 'react-icons/bi';
-import { RiServiceLine } from 'react-icons/ri';
+
+import { components } from '../../helpers';
 
 interface NavProps {
   setActive: React.Dispatch<React.SetStateAction<string>>;
@@ -11,46 +10,20 @@ interface NavProps {
 }
 
 function Nav({ active, setActive }: NavProps) {
-  return (
-    <nav>
-      {' '}
+  const renderNavIcons = () => {
+    return components.map(({ name, Icon }, i) => (
       <a
-        href="#header"
-        className={active === '#' ? 'active' : ''}
-        onClick={() => setActive('#')}
+        key={i}
+        href={`#${name}`}
+        className={active === `#${name}` ? 'active' : ''}
+        onClick={() => setActive(`#${name}`)}
       >
-        <AiOutlineHome />
+        <Icon />
       </a>
-      <a
-        href="#about"
-        className={active === '#about' ? 'active' : ''}
-        onClick={() => setActive('#about')}
-      >
-        <AiOutlineUser />
-      </a>
-      <a
-        href="#experience"
-        className={active === '#experience' ? 'active' : ''}
-        onClick={() => setActive('#experience')}
-      >
-        <BiBook />
-      </a>
-      <a
-        href="#portfolio"
-        className={active === '#portfolio' ? 'active' : ''}
-        onClick={() => setActive('#portfolio')}
-      >
-        <RiServiceLine />
-      </a>
-      <a
-        href="#contact"
-        className={active === '#contact' ? 'active' : ''}
-        onClick={() => setActive('#contact')}
-      >
-        <AiOutlineMessage />
-      </a>
-    </nav>
-  );
+    ));
+  };
+
+  return <nav>{renderNavIcons()}</nav>;
 }
 
 export default Nav;

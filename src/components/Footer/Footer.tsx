@@ -3,40 +3,27 @@ import './footer.scss';
 import React from 'react';
 import { FaInstagram, FaLinkedinIn, FaTwitter } from 'react-icons/fa';
 
+import { components } from '../../helpers';
+
 interface FooterProps {
   setActive: React.Dispatch<React.SetStateAction<string>>;
 }
 
 function Footer({ setActive }: FooterProps) {
+  const renderPermaLinks = () => {
+    return components.map(({ name }, i) => (
+      <li key={i}>
+        <a href={`#${name}`} onClick={() => setActive(`#${name}`)}>
+          {name}
+        </a>
+      </li>
+    ));
+  };
+
   return (
     <footer>
-      <ul className="permalinks">
-        <li>
-          <a href="#header" onClick={() => setActive('#')}>
-            Home
-          </a>
-        </li>
-        <li>
-          <a href="#about" onClick={() => setActive('#about')}>
-            About
-          </a>
-        </li>
-        <li>
-          <a href="#experience" onClick={() => setActive('#experience')}>
-            Experience
-          </a>
-        </li>
-        <li>
-          <a href="#portfolio" onClick={() => setActive('#portfolio')}>
-            Portfolio
-          </a>
-        </li>
-        <li>
-          <a href="#contact" onClick={() => setActive('#contact')}>
-            Contact
-          </a>
-        </li>
-      </ul>
+      <ul className="permalinks">{renderPermaLinks()}</ul>
+
       <div className="footer__socials">
         <a href="https://www.instagram.com/gusttavocdn/">
           <FaInstagram className="footer__socials-icon" />

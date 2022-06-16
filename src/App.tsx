@@ -8,7 +8,7 @@ import Portfolio from 'components/Portfolio';
 import React, { useState } from 'react';
 
 export default function App() {
-  const [active, setActive] = useState('#');
+  const [active, setActive] = useState('#header');
 
   return (
     <React.Fragment>
