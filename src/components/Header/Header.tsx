@@ -2,7 +2,7 @@ import './header.scss';
 
 import React from 'react';
 
-// import ME from '../../assets/me.png';
+import ME from '../../assets/pikachu.jpeg';
 import CTA from './CTA';
 import Socials from './Socials';
 
@@ -17,7 +17,7 @@ function Header() {
         <Socials />
 
         <div className="me">
-          {/* <img src={ME} alt="Foto Minha" className="img" /> */}
+          <img src={ME} alt="Foto Minha" className="img" />
         </div>
 
         <a href="#contact" className="scroll_down">

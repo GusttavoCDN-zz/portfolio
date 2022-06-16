@@ -28,7 +28,7 @@ header {
   gap: 0.8rem;
   position: absolute;
   left: 0;
-  bottom: 3rem;
+  bottom: 6rem;
 }
 
 .header__socials::after {
@@ -41,21 +41,26 @@ header {
 // ============== MY PHOTO =========================
 
 .me {
-  background: linear-gradient(var(--color-primary), transparent);
-  border-radius: 12rem 12rem 0 0;
+  background: linear-gradient(var(--color-white), transparent);
+  border-radius: 50%;
   height: 30rem;
-  left: calc(50% - 11rem);
-  margin-top: 4rem;
+  left: calc(50% - 12rem);
+  margin-top: 8rem;
   overflow: hidden;
-  padding: 5rem 1.5rem 1.5rem 1.5rem;
+  // padding: 5rem 1.5rem 1.5rem 1.5rem;
   position: absolute;
-  width: 22rem;
+  width: 25rem;
+
+  img {
+    width: max-content;
+    border-radius: 12rem 12rem 0 0;
+  }
 }
 
 // ============== SCROLL DOWN =========================
 .scroll_down {
   position: absolute;
-  bottom: 5rem;
+  bottom: 8rem;
   right: -2.3rem;
   transform: rotate(90deg);
   font-weight: 300;
@@ -63,10 +68,6 @@ header {
 }
 
 @media screen and (max-width: 1024px) {
-  header {
-    height: 68vh;
-  }
-
   .header__socials,
   .scroll_down {
     display: none;
