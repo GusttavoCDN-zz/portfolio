@@ -7,8 +7,8 @@ export default function App() {
   return (
     <React.Fragment>
       <Header />
-      <About />
       <Nav />
+      <About />
     </React.Fragment>
   );
 }

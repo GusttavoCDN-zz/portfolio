@@ -1,7 +1,7 @@
 import React from 'react';
 
 function Contat() {
-  return <div>Contat</div>;
+  return <section id="contact">Contat</section>;
 }
 
 export default Contat;
