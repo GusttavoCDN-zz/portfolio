@@ -1,13 +1,16 @@
 import './nav.scss';
 
-import React, { useState } from 'react';
+import React from 'react';
 import { AiOutlineHome, AiOutlineMessage, AiOutlineUser } from 'react-icons/ai';
 import { BiBook } from 'react-icons/bi';
 import { RiServiceLine } from 'react-icons/ri';
 
-function Nav() {
-  const [active, setActive] = useState('#');
+interface NavProps {
+  setActive: React.Dispatch<React.SetStateAction<string>>;
+  active: string;
+}
 
+function Nav({ active, setActive }: NavProps) {
   return (
     <nav>
       {' '}
