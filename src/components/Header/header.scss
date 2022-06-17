@@ -67,13 +67,6 @@ header {
   font-size: 0.9rem;
 }
 
-@media screen and (max-width: 1024px) {
-  .header__socials,
-  .scroll_down {
-    display: none;
-  }
-}
-
 @media screen and (max-width: 600px) {
   header {
     height: 100vh;
