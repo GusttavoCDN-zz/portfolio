@@ -16,14 +16,16 @@ function Portfolio() {
           <a href={project.github} className="btn" target="_blank" rel="noreferrer">
             Github
           </a>
-          <a
-            href={project.preview}
-            className="btn btn-primary"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Live Demo
-          </a>
+          {project.preview && (
+            <a
+              href={project.preview}
+              className="btn btn-primary"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Live Demo
+            </a>
+          )}
         </div>
       </article>
     ));
