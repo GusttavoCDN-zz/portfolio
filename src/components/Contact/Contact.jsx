@@ -5,9 +5,9 @@ import React, { useRef } from 'react';
 import { AiOutlineMail, AiOutlineWhatsApp } from 'react-icons/ai';
 
 function Contact() {
-  const form = useRef<any>();
+  const form = useRef();
 
-  const sendEmail = (e: any) => {
+  const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs.sendForm(

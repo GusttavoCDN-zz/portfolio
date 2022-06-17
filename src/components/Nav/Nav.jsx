@@ -4,12 +4,8 @@ import React from 'react';
 
 import { components } from '../../helpers';
 
-interface NavProps {
-  setActive: React.Dispatch<React.SetStateAction<string>>;
-  active: string;
-}
 
-function Nav({ active, setActive }: NavProps) {
+function Nav({ active, setActive }) {
   const renderNavIcons = () => {
     return components.map(({ name, Icon }, i) => (
       <a

@@ -5,11 +5,7 @@ import { FaInstagram, FaLinkedinIn, FaTwitter } from 'react-icons/fa';
 
 import { components } from '../../helpers';
 
-interface FooterProps {
-  setActive: React.Dispatch<React.SetStateAction<string>>;
-}
-
-function Footer({ setActive }: FooterProps) {
+function Footer({ setActive }) {
   const renderPermaLinks = () => {
     return components.map(({ name }, i) => (
       <li key={i}>
