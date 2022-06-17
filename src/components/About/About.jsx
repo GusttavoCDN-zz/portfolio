@@ -49,7 +49,7 @@ function About() {
           <p>
             Tenho 23 anos e atualmente em inicio na área de tecnologia. Moro em São Paulo,
             e estudo Desenvolvimento de software e Desenvolvimento Web Fullstack
-            respectivamente nas escolas 42SP e Trybe respectivamente.
+            respectivamente nas escolas 42SP e Trybe.
             <br /> <br />
             Sou uma pessoa extremamente curiosa e dedicada em tudo que faço, desde os
             esportes que amo praticar (basquete, video-games) até nos estudos.
