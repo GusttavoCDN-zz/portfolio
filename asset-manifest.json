@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.9e6abd68.css",
+    "main.js": "/portfolio/static/js/main.7ab7e817.js",
+    "static/media/calculator.jpg": "/portfolio/static/media/calculator.eda65a8a340ed0698ab4.jpg",
+    "static/media/me.png": "/portfolio/static/media/me.9fde3bdfd9cc3d413eea.png",
+    "static/media/todo-list.jpg": "/portfolio/static/media/todo-list.32c73f21cd13009c9942.jpg",
+    "static/media/store.jpg": "/portfolio/static/media/store.f459930ee8a9d8a507d4.jpg",
+    "static/media/my_cv.pdf": "/portfolio/static/media/my_cv.103da64c1e56d53611a6.pdf",
+    "static/media/pikachu.jpeg": "/portfolio/static/media/pikachu.b90ce9df493351925dba.jpeg",
+    "static/media/star-wars.jpg": "/portfolio/static/media/star-wars.94fdc7b60b371fcebddc.jpg",
+    "static/media/get_next_line.png": "/portfolio/static/media/get_next_line.62ef9fb433289eb77e14.png",
+    "static/media/libft.png": "/portfolio/static/media/libft.a0347a0e891ed03d421e.png",
+    "static/media/ft_printfe.png": "/portfolio/static/media/ft_printfe.c9af84508f17242c661c.png",
+    "static/media/born2beroote.png": "/portfolio/static/media/born2beroote.9826c182dc1dc9317bfa.png",
+    "index.html": "/portfolio/index.html",
+    "main.9e6abd68.css.map": "/portfolio/static/css/main.9e6abd68.css.map",
+    "main.7ab7e817.js.map": "/portfolio/static/js/main.7ab7e817.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9e6abd68.css",
+    "static/js/main.7ab7e817.js"
+  ]
+}
