@@ -1,12 +1,12 @@
-import born2beRoot from '../../assets/born2beroote.png';
-import calculator from '../../assets/calculator.jpg';
-import ftPrintF from '../../assets/ft_printfe.png';
-import getNextLine from '../../assets/get_next_line.png';
-import jokenpo from '../../assets/jokenpo.jpeg';
-import libft from '../../assets/libft.png';
-import starWars from '../../assets/star-wars.jpg';
-import store from '../../assets/store.jpg';
-import todoList from '../../assets/todo-list.jpg';
+import born2beRoot from '../../assets/projects/born2beroote.png';
+import calculator from '../../assets/projects/calculator.jpg';
+import ftPrintF from '../../assets/projects/ft_printfe.png';
+import getNextLine from '../../assets/projects/get_next_line.png';
+import jokenpo from '../../assets/projects/jokenpo.jpeg';
+import libft from '../../assets/projects/libft.png';
+import starWars from '../../assets/projects/star-wars.jpg';
+import store from '../../assets/projects/store.jpg';
+import todoList from '../../assets/projects/todo-list.jpg';
 
 const data = [
   {

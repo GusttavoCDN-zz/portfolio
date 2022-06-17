@@ -1,9 +1,42 @@
 import './experience.scss';
 
 import React from 'react';
-import { BsPatchCheckFill } from 'react-icons/bs';
+
+import { backEndTecnologies, frontEndTecnologies } from './data';
 
 function Experience() {
+  const renderFrontTecnologies = () => {
+    return frontEndTecnologies.map((tecnologie, i) => (
+      <article className="experience__details" key={i}>
+        <img
+          src={tecnologie.image}
+          alt={tecnologie.stack}
+          className="experience__details-icon img"
+        />
+
+        <div>
+          <h4>{tecnologie.stack}</h4>
+        </div>
+      </article>
+    ));
+  };
+
+  const renderBackTecnologies = () => {
+    return backEndTecnologies.map((tecnologie, i) => (
+      <article className="experience__details" key={i}>
+        <img
+          src={tecnologie.image}
+          alt={tecnologie.stack}
+          className="experience__details-icon img"
+        />
+
+        <div>
+          <h4>{tecnologie.stack}</h4>
+        </div>
+      </article>
+    ));
+  };
+
   return (
     <section id="experience">
       <h5>Minhas habilidades</h5>
@@ -12,93 +45,12 @@ function Experience() {
       <div className="container experience__container">
         <div className="experience__frontend">
           <h3>Frontend Development</h3>
-          <div className="experience__content">
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-
-              <div>
-                <h4>HTML</h4>
-                <small className="text-light">Experienced</small>
-              </div>
-            </article>
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-
-              <div>
-                <h4>Styled Components</h4>
-                <small className="text-light">Experienced</small>
-              </div>
-            </article>
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-
-              <div>
-                <h4>CSS</h4>
-                <small className="text-light">Experienced</small>
-              </div>
-            </article>
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-
-              <div>
-                <h4>JavaScript</h4>
-                <small className="text-light">Experienced</small>
-              </div>
-            </article>
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-
-              <div>
-                <h4>React</h4>
-                <small className="text-light">Experienced</small>
-              </div>
-            </article>
-          </div>
+          <div className="experience__content">{renderFrontTecnologies()}</div>
         </div>
 
         <div className="experience__backend">
           <h3>Backend Development</h3>
-          <div className="experience__content">
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-
-              <div>
-                <h4>HTML</h4>
-                <small className="text-light">Experienced</small>
-              </div>
-            </article>
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-
-              <div>
-                <h4>Styled Components</h4>
-                <small className="text-light">Experienced</small>
-              </div>
-            </article>
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-
-              <div>
-                <h4>CSS</h4>
-                <small className="text-light">Experienced</small>
-              </div>
-            </article>
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-
-              <div>
-                <h4>JavaScript</h4>
-                <small className="text-light">Experienced</small>
-              </div>
-            </article>
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>React</h4>
-                <small className="text-light">Experienced</small>
-              </div>
-            </article>
-          </div>
+          <div className="experience__content">{renderBackTecnologies()}</div>
         </div>
       </div>
     </section>
