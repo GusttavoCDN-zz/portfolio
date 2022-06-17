@@ -1,8 +1,7 @@
 import './about.scss';
 
 import React from 'react';
-import { FaAward } from 'react-icons/fa';
-import { FiUsers } from 'react-icons/fi';
+import { AiOutlineLaptop } from 'react-icons/ai';
 import { VscFolderLibrary } from 'react-icons/vsc';
 
 import ME from '../../assets/me.png';
@@ -23,31 +22,40 @@ function About() {
         <div className="about__content">
           <div className="about__cards">
             <article className="about__card">
-              <FaAward className="about__icon" />
-              <h5>Experience</h5>
-              <small>1 ano de estudos </small>
+              <AiOutlineLaptop className="about__icon" />
+              <h5>Engenharia de Software</h5>
+              <small>
+                <a href="https://www.42sp.org.br/" target="_blank" rel="noreferrer">
+                  at 42SP
+                </a>
+              </small>
             </article>
             <article className="about__card">
-              <FiUsers className="about__icon" />
-              <h5>Clients</h5>
-              <small>200+ WorldWide </small>
+              <AiOutlineLaptop className="about__icon" />
+              <h5>Desenvolvimento Web FullStack</h5>
+              <small>
+                <a href="https://www.betrybe.com/" target="_blank" rel="noreferrer">
+                  at Trybe
+                </a>
+              </small>
             </article>
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
               <h5>Projects</h5>
-              <small>10+ Completed </small>
+              <small>20+ Completed </small>
             </article>
           </div>
 
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-            Lorem Ipsum has been the industrys standard dummy text ever since the 1500s,
-            when an unknown printer took a galley of type and scrambled it to make a type
-            specimen book. It has survived not only five centuries, but also the leap into
-            electronic typesetting, remaining essentially unchanged. It was popularised in
-            the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus PageMaker
-            including versions of Lorem Ipsum.
+            Tenho 23 anos e atualmente em inicio na área de tecnologia. Moro em São Paulo,
+            e estudo Desenvolvimento de software e Desenvolvimento Web Fullstack
+            respectivamente nas escolas 42SP e Trybe respectivamente.
+            <br /> <br />
+            Sou uma pessoa extremamente curiosa e dedicada em tudo que faço, desde os
+            esportes que amo praticar (basquete, video-games) até nos estudos.
+            <br /> <br />
+            Tenho muita facilidade em aprender qualquer coisa, e com pouco tempo de
+            adaptação me sinto avontade para trabalhar com qualquer tecnologia.
           </p>
 
           <a href="#contact" className="btn btn-primary">

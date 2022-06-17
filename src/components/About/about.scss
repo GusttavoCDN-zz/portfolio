@@ -27,10 +27,11 @@
 .about__content {
   display: flex;
   flex-direction: column;
-  
+
   p {
     margin: 2rem 0 2.6rem;
     color: var(--color-light);
+    text-align: justify;
   }
 
   a {
@@ -58,6 +59,18 @@
       padding: 2rem;
       text-align: center;
       transition: var(--transition);
+
+      h5 {
+        font-weight: bold;
+      }
+
+      small {
+        font-size: 1rem;
+      }
+
+      a {
+        color: var(--color-light);
+      }
 
       &:hover {
         background: transparent;
