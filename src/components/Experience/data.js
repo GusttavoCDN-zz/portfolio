@@ -43,6 +43,11 @@ export const frontEndTecnologies = [
     image:
       'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg',
   },
+  {
+    stack: 'Material UI',
+    image:
+      'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg',
+  },
 ];
 
 export const backEndTecnologies = [
@@ -57,7 +62,19 @@ export const backEndTecnologies = [
       'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg',
   },
   {
+    stack: 'MySQL',
+    image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg',
+  },
+  {
     stack: 'C',
     image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg',
+  },
+  {
+    stack: 'Linux',
+    image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg',
+  },
+  {
+    stack: 'ShellScript',
+    image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg',
   },
 ];

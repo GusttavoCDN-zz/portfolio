@@ -49,7 +49,7 @@ function Experience() {
         </div>
 
         <div className="experience__backend">
-          <h3>Backend Development</h3>
+          <h3>Backend e DevOps</h3>
           <div className="experience__content">{renderBackTecnologies()}</div>
         </div>
       </div>
