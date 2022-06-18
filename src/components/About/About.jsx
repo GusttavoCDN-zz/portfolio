@@ -52,10 +52,10 @@ function About() {
             respectivamente nas escolas 42SP e Trybe.
             <br /> <br />
             Sou uma pessoa extremamente curiosa e dedicada em tudo que faço, desde os
-            esportes que amo praticar (basquete, video-games) até nos estudos.
+            esportes que amo praticar (basquete, videogames) até nos estudos.
             <br /> <br />
             Tenho muita facilidade em aprender qualquer coisa, e com pouco tempo de
-            adaptação me sinto avontade para trabalhar com qualquer tecnologia.
+            adaptação me sinto a vontade para trabalhar com qualquer tecnologia.
           </p>
 
           <a href="#contact" className="btn btn-primary">
